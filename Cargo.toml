@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-bhyve"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS bhyve component - virtualization"
+
+[lib]
+name = "bhyve"
+path = "src/lib.rs"
